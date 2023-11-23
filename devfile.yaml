@@ -4,7 +4,8 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      # image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: quay.io/vsvydenk/udi:java17
       memoryLimit: 3Gi
 
       endpoints:
